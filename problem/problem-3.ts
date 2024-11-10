@@ -15,5 +15,5 @@ function countWordOccurrences(sentence: string, word: string): number {
     return matchword.length;
 }
 
-console.log(countWordOccurrences("I love typescript ", "typescript")); 
+console.log(countWordOccurrences("I love typescript hello typescript", "typescript")); 
 }
